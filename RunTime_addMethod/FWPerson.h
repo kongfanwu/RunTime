@@ -1,0 +1,13 @@
+//
+//  FWPerson.h
+//  RunTime_addMethod
+//
+//  Created by 孔凡伍 on 15/8/26.
+//  Copyright (c) 2015年 kongfanwu. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface FWPerson : NSObject
+
+@end

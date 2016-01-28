@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B51F1ED1C59C98100DFE49B /* FWClassMethod_property_IvarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B51F1EC1C59C98100DFE49B /* FWClassMethod_property_IvarVC.m */; };
+		4B51F1F01C59E2AE00DFE49B /* FWTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B51F1EF1C59E2AE00DFE49B /* FWTagModel.m */; };
 		4BC74C0F1B8D9E7100711ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC74C0E1B8D9E7100711ED6 /* main.m */; };
 		4BC74C121B8D9E7100711ED6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC74C111B8D9E7100711ED6 /* AppDelegate.m */; };
 		4BC74C151B8D9E7100711ED6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC74C141B8D9E7100711ED6 /* ViewController.m */; };
@@ -29,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B51F1EB1C59C98100DFE49B /* FWClassMethod_property_IvarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWClassMethod_property_IvarVC.h; sourceTree = "<group>"; };
+		4B51F1EC1C59C98100DFE49B /* FWClassMethod_property_IvarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWClassMethod_property_IvarVC.m; sourceTree = "<group>"; };
+		4B51F1EE1C59E2AE00DFE49B /* FWTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTagModel.h; sourceTree = "<group>"; };
+		4B51F1EF1C59E2AE00DFE49B /* FWTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTagModel.m; sourceTree = "<group>"; };
 		4BC74C091B8D9E7100711ED6 /* RunTime_addMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunTime_addMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC74C0D1B8D9E7100711ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BC74C0E1B8D9E7100711ED6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,8 +98,12 @@
 				4BC74C111B8D9E7100711ED6 /* AppDelegate.m */,
 				4BC74C321B8D9E8F00711ED6 /* FWPerson.h */,
 				4BC74C331B8D9E8F00711ED6 /* FWPerson.m */,
+				4B51F1EE1C59E2AE00DFE49B /* FWTagModel.h */,
+				4B51F1EF1C59E2AE00DFE49B /* FWTagModel.m */,
 				4BC74C131B8D9E7100711ED6 /* ViewController.h */,
 				4BC74C141B8D9E7100711ED6 /* ViewController.m */,
+				4B51F1EB1C59C98100DFE49B /* FWClassMethod_property_IvarVC.h */,
+				4B51F1EC1C59C98100DFE49B /* FWClassMethod_property_IvarVC.m */,
 				4BC74C161B8D9E7100711ED6 /* Main.storyboard */,
 				4BC74C191B8D9E7100711ED6 /* Images.xcassets */,
 				4BC74C1B1B8D9E7100711ED6 /* LaunchScreen.xib */,
@@ -231,6 +241,8 @@
 				4BC74C151B8D9E7100711ED6 /* ViewController.m in Sources */,
 				4BC74C341B8D9E8F00711ED6 /* FWPerson.m in Sources */,
 				4BC74C121B8D9E7100711ED6 /* AppDelegate.m in Sources */,
+				4B51F1F01C59E2AE00DFE49B /* FWTagModel.m in Sources */,
+				4B51F1ED1C59C98100DFE49B /* FWClassMethod_property_IvarVC.m in Sources */,
 				4BC74C0F1B8D9E7100711ED6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,23 @@
 //
 
 #import "FWPerson.h"
+#import "FWTagModel.h"
 
 @implementation FWPerson
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.tagModel = [[FWTagModel alloc] init];
+
+    }
+    return self;
+}
+
+- (void)setTagModel:(FWTagModel *)tagModel
+{
+    _tagModel = tagModel;
+}
 
 @end
